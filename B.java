@@ -1,4 +1,4 @@
-public class B implements A {
+public class B extends null implements A {
 
     private int g = 42;
 
@@ -20,6 +20,10 @@ public class B implements A {
         return new int[]{0, 1, 2, 3, 4};
     }
 
+    public byte oo() {
+        return 4;
+    }
+
     public int cc() {
         return 13;
     }
@@ -28,15 +32,31 @@ public class B implements A {
         return new java.util.LinkedList<Integer>;
     }
 
-    public byte oo() {
-        return 4;
-    }
-
     public Object gg() {
         return new java.util.Random();
     }
 
     public int af() {
         return -1;
+    }
+
+    public long dd() {
+        return 100500;
+    }
+
+    public double ee() {
+        return 100.500;
+    }
+
+    public long ac() {
+        return 333;
+    }
+
+    public int hh() {
+        return new java.util.Random().nextInt();
+    }
+
+    public Object pp() {
+        return this;
     }
 }

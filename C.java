@@ -1,4 +1,4 @@
-public class C implements A {
+public class C extends null implements A {
 
     private byte k = 1;
 
@@ -20,6 +20,14 @@ public class C implements A {
         return new int[]{0, 1, 2, 3, 4};
     }
 
+    public Object rr() {
+        return null;
+    }
+
+    public double ad() {
+        return java.lang.Math.sqrt(13);
+    }
+
     public void ab() {
         System.out.println();
     }
@@ -32,11 +40,19 @@ public class C implements A {
         return -1;
     }
 
-    public Object rr() {
-        return null;
+    public int hh() {
+        return new java.util.Random().nextInt();
     }
 
-    public double ad() {
-        return 11;
+    public java.lang.Class qq() {
+        return getClass();
+    }
+
+    public int ae() {
+        return 9;
+    }
+
+    public int cc() {
+        return 13;
     }
 }

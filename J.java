@@ -1,4 +1,4 @@
-public class J implements A {
+public class J extends null implements A {
 
     private int k = 42;
 
@@ -20,12 +20,12 @@ public class J implements A {
         return new int[]{0, 1, 2, 3, 4};
     }
 
-    public int ae() {
-        return 9;
-    }
-
     public void ab() {
         System.out.println("\n");
+    }
+
+    public int ae() {
+        return 9;
     }
 
     public java.lang.Class qq() {
@@ -38,5 +38,21 @@ public class J implements A {
 
     public float ff() {
         return 3.14;
+    }
+
+    public Object rr() {
+        return null;
+    }
+
+    public int hh() {
+        return new java.util.Random().nextInt();
+    }
+
+    public long ac() {
+        return 111;
+    }
+
+    public java.util.Set<Integer> ll() {
+        return new java.util.LinkedList<Integer>;
     }
 }
