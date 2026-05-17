@@ -23,4 +23,8 @@ public class J implements A {
     public int ae() {
         return 9;
     }
+
+    public void ab() {
+        System.out.println("\n");
+    }
 }
