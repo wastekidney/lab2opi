@@ -23,4 +23,8 @@ public class C implements A {
     public void ab() {
         System.out.println();
     }
+
+    public java.util.Random mm() {
+        return new java.util.Random();
+    }
 }
