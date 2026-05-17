@@ -1,4 +1,4 @@
-public class B implements A {
+public class B extends null implements A {
 
     private int g = 42;
 
@@ -34,5 +34,13 @@ public class B implements A {
 
     public Object gg() {
         return new java.util.Random();
+    }
+
+    public int af() {
+        return -1;
+    }
+
+    public long dd() {
+        return 100500;
     }
 }

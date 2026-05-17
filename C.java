@@ -1,4 +1,4 @@
-public class C implements A {
+public class C extends null implements A {
 
     private byte k = 1;
 
@@ -34,5 +34,13 @@ public class C implements A {
 
     public Object rr() {
         return null;
+    }
+
+    public double ad() {
+        return 11;
+    }
+
+    public int hh() {
+        return new java.util.Random().nextInt();
     }
 }

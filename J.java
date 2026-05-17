@@ -1,4 +1,4 @@
-public class J implements A {
+public class J extends null implements A {
 
     private int k = 42;
 
@@ -34,5 +34,13 @@ public class J implements A {
 
     public Object pp() {
         return this;
+    }
+
+    public float ff() {
+        return 3.14;
+    }
+
+    public int hh() {
+        return new java.util.Random().nextInt();
     }
 }
