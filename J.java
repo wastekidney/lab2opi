@@ -35,4 +35,8 @@ public class J implements A {
     public Object pp() {
         return this;
     }
+
+    public float ff() {
+        return 3.14;
+    }
 }

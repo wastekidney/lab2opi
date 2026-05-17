@@ -35,4 +35,8 @@ public class B implements A {
     public Object gg() {
         return new java.util.Random();
     }
+
+    public int af() {
+        return -1;
+    }
 }

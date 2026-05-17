@@ -35,4 +35,8 @@ public class C implements A {
     public Object rr() {
         return null;
     }
+
+    public double ad() {
+        return 11;
+    }
 }
