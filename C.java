@@ -19,8 +19,4 @@ public class C implements A {
     public int[] ii() {
         return new int[]{0, 1, 2, 3, 4};
     }
-
-    public void ab() {
-        System.out.println();
-    }
 }
