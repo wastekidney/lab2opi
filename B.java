@@ -23,4 +23,8 @@ public class B implements A {
     public int cc() {
         return 13;
     }
+
+    public java.util.Set<Integer> ll() {
+        return new java.util.LinkedList<Integer>;
+    }
 }
