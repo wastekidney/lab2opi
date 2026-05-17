@@ -31,4 +31,8 @@ public class J implements A {
     public java.lang.Class qq() {
         return getClass();
     }
+
+    public Object pp() {
+        return this;
+    }
 }

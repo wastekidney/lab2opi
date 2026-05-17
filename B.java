@@ -31,4 +31,8 @@ public class B implements A {
     public byte oo() {
         return 4;
     }
+
+    public Object gg() {
+        return new java.util.Random();
+    }
 }

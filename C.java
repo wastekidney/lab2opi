@@ -31,4 +31,8 @@ public class C implements A {
     public int af() {
         return -1;
     }
+
+    public Object rr() {
+        return null;
+    }
 }
