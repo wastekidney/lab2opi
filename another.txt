@@ -1,1 +1,5 @@
+<<<<<<< Updated upstream
 another work
+=======
+another work2
+>>>>>>> Stashed changes
