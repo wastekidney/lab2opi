@@ -1,6 +1,6 @@
 [submodule "submodule_repo"]
 	path = submodule_repo
-	url = https://github.com/wastekidney/submodule_repo.git
+	url = https://github.com/wastekidney/temp_repo.git
 [submodule "submodule_repo2"]
 	path = submodule_repo2
 	url = https://github.com/wastekidney/submodule_repo2.git
